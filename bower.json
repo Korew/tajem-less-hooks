@@ -1,0 +1,25 @@
+{
+  "name": "Tajem",
+  "homepage": "https://korew.github.io/tajem-less-hooks/",
+  "authors": [
+    "Roman Korenchuk <ikorew@gmail.com>"
+  ],
+  "description": "Tajem template, less, hooks, bower, Ivan",
+  "main": "",
+  "keywords": [
+    "less",
+    "frontend",
+    "hooks"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tajem": "djvang/tajem"
+  }
+}
