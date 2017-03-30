@@ -1,0 +1,27 @@
+.hook-navbar() {
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+
+}
+
+.hook-navbar-item() {
+	display: inline-block;
+	margin-right: 25px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.hook-navbar-link() {
+	text-decoration: none;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: @main-color-white;
+
+	&.active, &:hover {
+		color: @main-brand-color;
+	}
+}
